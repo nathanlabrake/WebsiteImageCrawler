@@ -23,9 +23,6 @@ namespace WebsiteImageCrawler.Crawlers
                 return links;
             }
 
-            // Create a base URI for each CSS link... SO even if it's relative, it has a base URI to build the URI off of.
-            // Test to see if this works.
-
             foreach (var link in cssLinks)
             {
                 Uri stylesheetUri;
