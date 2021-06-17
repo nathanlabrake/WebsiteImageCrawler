@@ -1,0 +1,7 @@
+﻿.test-class {
+    background-image: url("test-bg-img.jpg");
+}
+
+.another-test-class {
+    background: #000 url(test-bg-img-2.jpg) no-repeat;
+}
